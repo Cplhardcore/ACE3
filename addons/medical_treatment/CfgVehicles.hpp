@@ -184,18 +184,6 @@ class CfgVehicles {
             MACRO_ADDITEM(ACE_plasmaIV,1);
         };
     };
-    class ACE_gelofusineIVItem: Item_Base_F {
-        scope = 2;
-        scopeCurator = 2;
-        displayName = CSTRING(Gelofusine_IV);
-        author = ECSTRING(common,ACETeam);
-        vehicleClass = "Items";
-        class TransportItems {
-            MACRO_ADDITEM(ACE_gelofusineaIV,1);
-        };
-    };
-
-
     class ACE_bloodIVItem: Item_Base_F {
         scope = 2;
         scopeCurator = 2;
